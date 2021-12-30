@@ -12,10 +12,25 @@ function getProblem() {
   } else if (info[0] <= 2020) {
   	info[1] = ["Preliminary","Final","Selection"][info[1]-1]
   } else {
-  	info[1] = ["Secondry","Final","Selection"][info[1]-1]
+  	info[1] = ["Second","Final","Selection"][info[1]-1]
   }
 
-  document.getElementById("problem").src = "problems-de/" + prob;
+  var langs = []
+  if (document.getElementById("de").checked) {
+  	langs.push("de")
+  }
+  if (document.getElementById("fr").checked) {
+  	langs.push("fr")
+  }
+
+  if (langs.length == 0) {
+  	return;
+  }
+
+  lang = langs[Math.floor(Math.random()*langs.length)];
+
+  document.getElementById("problem").style.display = 'block';
+  document.getElementById("problem").src = "problems-" + lang  + "/" + prob;
   document.getElementById("year").innerHTML = info[0];
   document.getElementById("exam").innerHTML = info[1];
   document.getElementById("number").innerHTML = info[2];

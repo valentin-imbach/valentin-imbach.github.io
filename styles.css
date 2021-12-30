@@ -56,7 +56,7 @@ nav a {
 
 .buttons {
   width: 50%;
-  margin: 50px auto;
+  margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -91,5 +91,12 @@ td {
 .problemPicker button:hover {
   color: white;
   background: green;
+}
+
+.languages {
+  width: 10%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
 }
 

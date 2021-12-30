@@ -28,6 +28,7 @@
 	<main>
 		<div class = "problemPicker">
 		<h1>Random Problem Picker</h1>
+		<hr>
 		<div class = "buttons">
 			<button onclick = "getProblem()">Get Problem</button>
 			<div id = "info-box">
@@ -48,8 +49,19 @@
 			</div>
 			<button id="infoButton" onclick = "toggleInfo()">Show Info</button>
 		</div>
-		<img id = "problem" src = "">
-		
+		<hr>
+		<div class = "languages">
+			<div>
+			<input type = "checkbox" id = "de" name = "de" checked>
+			<label for = "de">DE</label>
+			</div>
+			<div>
+			<input type = "checkbox" id = "fr" name = "fr">
+			<label for = "fr">FR</label>
+			</div>
+		</div>
+		<hr>
+		<img id = "problem" src = "" onerror = "this.style.display='none'">
 	</main>
 </body>
 </html>
