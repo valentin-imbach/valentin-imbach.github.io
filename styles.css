@@ -55,7 +55,7 @@ nav a {
 }
 
 .buttons {
-  width: 50%;
+  width: 75%;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -93,10 +93,31 @@ td {
   background: green;
 }
 
-.languages {
-  width: 10%;
+.settings {
   margin: 10px auto;
   display: flex;
   justify-content: space-around;
 }
+
+.language-settings {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.level-settings {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings p {
+  font-weight: 600;
+}
+
+
+
+
 
