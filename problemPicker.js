@@ -4,17 +4,6 @@ var problems = ['2017-1-G1.png', '2017-1-K2.png', '2021-3-9.png', '2008-2-5.png'
 function getProblem() {
   var prob = problems[Math.floor(Math.random()*problems.length)];
   var info = prob.slice(0,-4).split('-')
-
-  if (info[0] <= 2002) {
-  	info[1] = "Selection"
-  } else if (info[0] == 2003) {
-  	info[1] = ["Preselection","Selection"][info[1]-1]
-  } else if (info[0] <= 2020) {
-  	info[1] = ["Preliminary","Final","Selection"][info[1]-1]
-  } else {
-  	info[1] = ["Second","Final","Selection"][info[1]-1]
-  }
-
   var langs = []
   if (document.getElementById("de").checked) {
   	langs.push("de")
@@ -32,7 +21,7 @@ function getProblem() {
   document.getElementById("problem").style.display = 'block';
   document.getElementById("problem").src = "problems-" + lang  + "/" + prob;
   document.getElementById("year").innerHTML = info[0];
-  document.getElementById("exam").innerHTML = info[1];
+  document.getElementById("level").innerHTML = ["Second Round","Final Round","IMO Selection"][info[1]-1];
   document.getElementById("number").innerHTML = info[2];
 }
 
