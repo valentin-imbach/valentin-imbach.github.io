@@ -30,6 +30,15 @@ main {
   margin: 0;
 }
 
+.problemPicker h1 {
+  display: inline-block;
+}
+
+.timer {
+  float: right;
+  margin: 30px;
+}
+
 nav {
   display: none;
   margin-left: 50px;

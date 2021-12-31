@@ -24,6 +24,8 @@ function getProblem() {
 	document.getElementById("year").innerHTML = info[1];
 	document.getElementById("level").innerHTML = ["Second Round","Final Round","IMO Selection"][info[2]-1];
 	document.getElementById("number").innerHTML = info[3];
+	totalSeconds = 0;
+	setInterval(setTime, 1000);
 }
 
 function toggleInfo() {
@@ -38,3 +40,29 @@ function toggleInfo() {
     butt.innerHTML = "Show Info"
   }
 }
+
+//timer
+
+var totalSeconds = 0;
+function setTime() {
+	let minutesLabel = document.getElementById("minutes");
+	let secondsLabel = document.getElementById("seconds");
+	let hoursLabel = document.getElementById("hours");
+	++totalSeconds;
+	secondsLabel.innerHTML = pad(totalSeconds % 60);
+	minutesLabel.innerHTML = pad(parseInt((totalSeconds % 3600) / 60));
+	hoursLabel.innerHTML = parseInt(totalSeconds / 3600) + "";
+}
+
+function pad(val) {
+	var valString = val + "";
+	if (valString.length < 2) { return "0" + valString; }
+	else { return valString; }
+}
+
+
+
+
+
+
+

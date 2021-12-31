@@ -37,59 +37,67 @@
 	<hr>
 	<main>
 		<div class = "problemPicker">
-		<h1>Random Problem Picker</h1>
-		<hr>
-		<div class = "buttons">
-			<button onclick = "getProblem()">Get Problem</button>
-			<div id = "info-box">
-				<table id = "info-table" style = "display: none;">
-				  <tr>
-				    <td>Year:</td>
-				    <td id = "year"></td>
-				  </tr>
-				  <tr>
-				    <td>Level:</td>
-				    <td id = "level"></td>
-				  </tr>
-				  <tr>
-				    <td>Problem:</td>
-				    <td id = "number"></td>
-				  </tr>
-				</table>
+			<h1>Random Problem Picker</h1>
+			<div class = "timer">
+				<label id="hours">0</label>
+				<label>:</label>
+				<label id="minutes">00</label>
+				<label>:</label>
+				<label id="seconds">00</label>
 			</div>
-			<button id="infoButton" onclick = "toggleInfo()">Show Info</button>
+			<hr>
+			<div class = "buttons">
+				<button onclick = "getProblem()">Get Problem</button>
+				<div id = "info-box">
+					<table id = "info-table" style = "display: none;">
+					  <tr>
+					    <td>Year:</td>
+					    <td id = "year"></td>
+					  </tr>
+					  <tr>
+					    <td>Level:</td>
+					    <td id = "level"></td>
+					  </tr>
+					  <tr>
+					    <td>Problem:</td>
+					    <td id = "number"></td>
+					  </tr>
+					</table>
+				</div>
+				<button id="infoButton" onclick = "toggleInfo()">Show Info</button>
+			</div>
+			<hr>
+			<div class = "settings">
+				<div class = "language-settings">
+					<p>Languages:</p>
+					<div>
+					<input type = "checkbox" id = "de" name = "de" checked>
+					<label for = "de">DE</label>
+					</div>
+					<div>
+					<input type = "checkbox" id = "fr" name = "fr">
+					<label for = "fr">FR</label>
+					</div>
+				</div>
+				<div class = "level-settings">
+					<p>Levels:</p>
+					<div>
+					<input type = "checkbox" id = "sec" name = "sec" checked>
+					<label for = "de">Second Round</label>
+					</div>
+					<div>
+					<input type = "checkbox" id = "fin" name = "fin">
+					<label for = "fr">Final Round</label>
+					</div>
+					<div>
+					<input type = "checkbox" id = "sel" name = "sel">
+					<label for = "fr">IMO Selection</label>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<img id = "problem" src = "" onerror = "this.style.display='none'">
 		</div>
-		<hr>
-		<div class = "settings">
-			<div class = "language-settings">
-				<p>Languages:</p>
-				<div>
-				<input type = "checkbox" id = "de" name = "de" checked>
-				<label for = "de">DE</label>
-				</div>
-				<div>
-				<input type = "checkbox" id = "fr" name = "fr">
-				<label for = "fr">FR</label>
-				</div>
-			</div>
-			<div class = "level-settings">
-				<p>Levels:</p>
-				<div>
-				<input type = "checkbox" id = "sec" name = "sec" checked>
-				<label for = "de">Second Round</label>
-				</div>
-				<div>
-				<input type = "checkbox" id = "fin" name = "fin">
-				<label for = "fr">Final Round</label>
-				</div>
-				<div>
-				<input type = "checkbox" id = "sel" name = "sel">
-				<label for = "fr">IMO Selection</label>
-				</div>
-			</div>
-		</div>
-		<hr>
-		<img id = "problem" src = "" onerror = "this.style.display='none'">
 	</main>
 </body>
 </html>
