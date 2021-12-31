@@ -25,7 +25,9 @@ function getProblem() {
 	document.getElementById("level").innerHTML = ["Second Round","Final Round","IMO Selection"][info[2]-1];
 	document.getElementById("number").innerHTML = info[3];
 	totalSeconds = 0;
-	setInterval(setTime, 1000);
+	clearInterval(clock)
+	clock = setInterval(setTime, 1000);
+	setTime()
 }
 
 function toggleInfo() {
@@ -44,6 +46,7 @@ function toggleInfo() {
 //timer
 
 var totalSeconds = 0;
+var clock;
 function setTime() {
 	let minutesLabel = document.getElementById("minutes");
 	let secondsLabel = document.getElementById("seconds");
