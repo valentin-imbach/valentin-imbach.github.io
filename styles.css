@@ -109,14 +109,12 @@ td {
 }
 
 .language-settings {
-  width: 20%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .level-settings {
-  width: 45%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,6 +124,9 @@ td {
   font-weight: 600;
 }
 
+.checkbox {
+  margin-left: 10px;
+}
 
 
 
