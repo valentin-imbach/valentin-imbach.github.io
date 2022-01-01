@@ -67,32 +67,39 @@
 			</div>
 			<hr>
 			<div class = "settings">
-				<div class = "language-settings">
-					<p>Languages:</p>
+				<span class = "language-settings">
 					<div class = "checkbox">
-					<input type = "checkbox" id = "de" name = "de" checked>
+					<input type = "checkbox" id = "de" checked>
 					<label for = "de">DE</label>
 					</div>
 					<div class = "checkbox">
-					<input type = "checkbox" id = "fr" name = "fr">
+					<input type = "checkbox" id = "fr">
 					<label for = "fr">FR</label>
 					</div>
-				</div>
-				<div class = "level-settings">
-					<p>Levels:</p>
+				</span>
+				<span class = "level-settings">
 					<div class = "checkbox">
-					<input type = "checkbox" id = "sec" name = "sec" checked>
-					<label for = "de">Second Round</label>
+					<input type = "checkbox" id = "level1" checked>
+					<label for = "level1">Second Round</label>
 					</div>
 					<div class = "checkbox">
-					<input type = "checkbox" id = "fin" name = "fin">
-					<label for = "fr">Final Round</label>
+					<input type = "checkbox" id = "level2">
+					<label for = "level2">Final Round</label>
 					</div>
 					<div class = "checkbox">
-					<input type = "checkbox" id = "sel" name = "sel">
-					<label for = "fr">IMO Selection</label>
+					<input type = "checkbox" id = "level3">
+					<label for = "level3">IMO Selection</label>
 					</div>
-				</div>
+				</span>
+			</div>
+			<hr>
+			<div class = "year-settings">
+				<output id = "year1">2001</output>
+				<span class= "year-slider">
+				    <input type="range" min="2001" max="2022" value="2001" step = "1" id="lower" oninput = "slider1func()">
+				    <input type="range" min="2001" max="2022" value="2022" step = "1" id="upper" oninput = "slider2func()">
+				</span>
+				<output id = "year2">2021</output>
 			</div>
 			<hr>
 			<img id = "problem" src = "" onerror = "this.style.display='none'">
