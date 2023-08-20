@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" stroke="#000" stroke-width="5" viewBox="-360 -320 720 640">
+<title>3-colouring of the Petersen graph</title>
+<rect x="-360" y="-320" width="720" height="640" fill="#fff" stroke="none"/>
+<path fill="none" stroke-width="7" d="M0 173.2l-300-173.2 150 259.8h300l150-259.8-300 173.2 0-173.2-150-86.6 300-173.2h-300l-150 259.8M-150-86.6v346.4M150 259.8v-346.4l-300-173.2M150-86.6l-150 86.6M150-259.8l150 259.8"/>
+<g fill="red">
+<circle cx="300" cy="-0" r="30"/>
+<circle cx="-150" cy="-259.808" r="30"/>
+<circle cx="-150" cy="259.808" r="30"/>
+<circle cx="0" cy="-0" r="30"/>
+</g>
+<g fill="#0e0">
+<circle cx="150" cy="-259.808" r="30"/>
+<circle cx="-300" cy="0" r="30"/>
+<circle cx="150" cy="259.808" r="30"/>
+</g>
+<g fill="#08f">
+<circle cx="150" cy="-86.6025" r="30"/>
+<circle cx="-150" cy="-86.6025" r="30"/>
+<circle cx="0" cy="173.205" r="30"/>
+</g>
+</svg>
