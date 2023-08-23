@@ -1,119 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Valentin Imbach</title>
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
-	</head>
-	<body>
-		<header>
-			<div class = "menu">
-				<a class = "menu-item" href = "index.html">Home</a>
-				<a class = "menu-item" href = "resume.html">Resume</a>
-				<a class = "menu-item" href = "contact.html">Contact</a>
-				<a class = "menu-item" href = "picker/index.html">Problem Picker</a>
-				<div class="dropdown">
-					<a class="dropdown-head" href="#">Mathematics</a>
-					<div class="sub-menu">
-						<a href="olympiad.html">Olympiad</a>
-						<a href="research.html">Research</a>
-						<a href="outreach.html">Outreach</a>
-						<a href="resources.html">Resources</a>
-					</div>
-				</div>
-				<div class="dropdown">
-					<a class="dropdown-head" href="#">Programming</a>
-					<div class="sub-menu">
-						<a href="game.html">Game</a>
-						<a href="resources.html">Resources</a>
-					</div>
-				</div>
-			</div>
-		</header>
+---
+layout: default
+title: Home
+---
 
-		<main>
-			<div class = "intro">
-				<div class = intro-pic>
-					<img src="images/valentin.jpg">
-				</div>
-				<div class = intro-text>
-					<p>Hi, my name is<br><span class = "intro-name">Valentin Imbach</span><br>and I'm a mathematician.</p>
-				</div>
-			</div>
+<div class = "intro">
+	<div class = intro-pic>
+		<img src="assets/images/valentin.jpg">
+	</div>
+	<div class = intro-text>
+		<p>Hi, my name is<br><span class = "intro-name">Valentin Imbach</span><br>and I'm a mathematician.</p>
+	</div>
+</div>
 
-			<div class = section>
-				<h2>About me</h2>
-				<div class="about-me">
-					<p>
-						I'm a maths enthusiast with a flair for problem-solving and a passion for bringing mathematics to a wider audience. Beyond numbers, I write code, create music and play sports.
-					</p>
-					<button class = "read-more" onclick = "location.href='resume.html';">View resume</button>
-					<button class = "read-more" onclick = "location.href='contact.html';">Contact me</button>
-				</div>
-			</div>
-		
-			<div class = section>
-				<h2>Mathematics</h2>
-				<div class = tiles>
-					<div class="tile">
-						<h3>Mathematical Olympiad</h3>
-						<p>
-							I am the Academic Director of the annual Swiss Mathematical Olympiad, a mathematical contest for high schoolers from all around Switzerland. Together with other volunteers, I create exam questions, write teaching material, organise training camps and acompany the best students every year to international competitions.
-						</p>
-						<button class = "read-more" onclick = "location.href='olympiad.html';">Read more</button>
-					</div>
-					<div class = "tile">
-						<h3>Research Interest</h3>
-						<p>
-							My main reaseacrh interests are in mathematical logic and computation theory. Topics that fascinate me incldue the interplay of determinism and nondeterminism in Complexity Thoery, as well as the relationship of different models of computation such as Automata, Formal Grammars and the Lambda Calculus.
-						</p>
-						<button class = "read-more" onclick = "location.href='research.html';">Read more</button>
-					</div>
+<div class = section>
+	<h2>About me</h2>
+	<div class="about-me">
+		<p>
+			I'm a maths enthusiast with a flair for problem-solving and a passion for bringing mathematics to a wider audience. Beyond numbers, I write code, create music and play sports.
+		</p>
+		<button class = "read-more" onclick = "location.href='resume.html';">View resume</button>
+		<button class = "read-more" onclick = "location.href='contact.html';">Contact me</button>
+	</div>
+</div>
 
-					<div class = "tile">
-						<h3>Mathematical Outreach</h3>
-						<p>
-							I am on a mission to bring the joy of mathematics to a wider audience. With growing complexity of technology and social structures in our society, abstract reasoning and problem solving skills are more important than ever before. My goal is to improve mathematical education in order to reduce the widespread dislike of the subject.
-						</p>
-						<button class = "read-more" onclick = "location.href='outreach.html';">Read more</button>
-					</div>
+<div class = section>
+	<h2>Mathematics</h2>
+	<div class = tiles>
+		<div class="tile">
+			<h3>Mathematical Olympiad</h3>
+			<p>
+				I am the Academic Director of the annual Swiss Mathematical Olympiad, a mathematical contest for high schoolers from all around Switzerland. Together with other volunteers, I create exam questions, write teaching material, organise training camps and acompany the best students every year to international competitions.
+			</p>
+			<button class = "read-more" onclick = "location.href='olympiad.html';">Read more</button>
+		</div>
+		<div class = "tile">
+			<h3>Research Interest</h3>
+			<p>
+				My main reaseacrh interests are in mathematical logic and computation theory. Topics that fascinate me include the interplay of determinism and non-determinism in Complexity Theory, as well as the relationship of different models of computation such as Automata, Formal Grammars and the Lambda Calculus.
+			</p>
+			<button class = "read-more" onclick = "location.href='research.html';">Read more</button>
+		</div>
 
-					<div class = "tile">
-						<h3>Resources</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						</p>
-						<button class = "read-more" onclick = "location.href='resources.html';">Read more</button>
-					</div>
-				</div>
-			</div>
+		<div class = "tile">
+			<h3>Mathematical Outreach</h3>
+			<p>
+				I am on a mission to bring the joy of mathematics to a wider audience. With growing complexity of technology and social structures in our society, abstract reasoning and problem solving skills are more important than ever before. My goal is to improve mathematical education in order to reduce the widespread dislike of the subject.
+			</p>
+			<button class = "read-more" onclick = "location.href='outreach.html';">Read more</button>
+		</div>
 
-			<div class = section>
-				<h2>Programming</h2>
-				<div class = tiles>
-					<div class="tile">
-						<h3>Game Development</h3>
-						<p>
-							I am working on my own video game which I am from scratch wusing the c++ programming language. My vision is to create procedural worlds which the player can explore and interact with. I set myself the goal to create all parts of the project by myself, including the code, the sound and the art.
-						</p>
-						<button class = "read-more" onclick = "location.href='game.html';">Read more</button>
-					</div>
+		<div class = "tile">
+			<h3>Resources</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			</p>
+			<button class = "read-more" onclick = "location.href='resources.html';">Read more</button>
+		</div>
+	</div>
+</div>
 
-					<div class = "tile">
-						<h3>Resources</h3>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						</p>
-						<button class = "read-more" onclick = "location.href='resources.html';">Read more</button>
-					</div>
-				</div>
-			</div>
-			
+<div class = section>
+	<h2>Programming</h2>
+	<div class = tiles>
+		<div class="tile">
+			<h3>Game Development</h3>
+			<p>
+				I am working on my own video game which I am from scratch wusing the c++ programming language. My vision is to create procedural worlds which the player can explore and interact with. I set myself the goal to create all parts of the project by myself, including the code, the sound and the art.
+			</p>
+			<button class = "read-more" onclick = "location.href='game.html';">Read more</button>
+		</div>
 
-		</main>
-		<footer>
-			
-		</footer>
-	</body>
-</html>
+		<div class = "tile">
+			<h3>Resources</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			</p>
+			<button class = "read-more" onclick = "location.href='resources.html';">Read more</button>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,156 @@
+- title: Education
+  entries:
+    - left: 2022 – 2023
+      right:
+        - Masters in Mathematics, Mathematical Tripos Part III
+        - University of Cambridge, Honours Pass with Distinction
+    - left: 2019 – 2022
+      right:
+        - Bachelor in Mathematics, Mathematical Tripos
+        - University of Cambridge, First Class Honours
+    - left: 2015 – 2019
+      right:
+        - Swiss Matura, Mathematics and Natural Science Track
+        - MNG Rämibühl Zürich, average grade 5.38
+
+- title: Work Experience
+  entries:
+    - left: Summer 2021
+      right:
+        - Intern, Cambridge University
+        - Development of teaching material
+    - left: August 2020/22/23
+      right:
+        - Daycare Worker, KiZH Foundation
+        - Holiday care for children aged 4 to 7
+    - left: Since 2014
+      right:
+        - Mathematics Tutor, Freelance
+        - For pupils and students of all levels
+
+- title: Extracurricular Courses
+  entries:
+    - left: Summer 2018
+      right:
+        - PROMYS Europe, University of Oxford
+    - left: 2017 – 2018
+      right:
+        - Math Youth Academy, ETH Zürich
+    - left: 2014 – 2017
+      right:
+        - Junior Euler Society, University of Zürich
+    - left: 2009 – 2013
+      right:
+        - Universikum, Zürich
+
+- title: Volunteering
+  entries:
+    - left: January 2020/21
+      right:
+        - Mentor, Shadowing Scheme
+        - University of Cambridge
+    - left: March 2020
+      right:
+        - Mentor, STEP Support Programme
+        - University of Cambridge
+    - left: March 2023
+      right:
+        - Mentor, Girls in Mathematics Day
+        - University of Cambridge
+
+- title: Associations and Societies
+  entries:
+    - left: 2022 – 2023
+      right:
+        - Constable, Trinity Mathematical Society
+    - left: 2021 – 2022
+      right:
+        - President, Trinity Mathematical Society
+    - left: 2020 – 2021
+      right:
+        - Membership Secretary, Trinity Mathematical Society
+    - left: Since 2020
+      right:
+        - Member, Swiss Study Foundation
+    - left: Since 2022
+      right:
+        - Academic Director, Swiss Mathematical Olympiad
+    - left: Since 2023
+      right:
+        - Vice President, Swiss Mathematical Olympiad
+    - left: January 2021
+      right:
+        - Juror for Original Film Music, Watersprites Film Festival
+
+- title: Awards and Scholarships
+  entries:
+    - left: July 2022
+      right:
+        - Sherlock Prize, University of Cambridge
+        - For greatest improvement during the Mathematical Tripos
+    - left: September 2017
+      right:
+        - Best International Team Success, Swiss Science Olympiads
+    - left: September 2018/19
+      right:
+        - Best Interdisciplinary Achievement, Swiss Science Olympiads
+
+- title: Sports
+  entries:
+    - left: 2022 – 2023
+      right:
+        - Captain, Cambridge University Ultimate Club
+    - left: Since 2022
+      right:
+        - Member, Zürich Ultimate Club
+    - left: 2021 – 2022
+      right:
+        - Captain, Trinity College Ultimate Club
+    - left: Since 2021
+      right:
+        - Member, Cambridge University Mountaineering Club
+    - left: 2020 – 2021
+      right:
+        - Captain, Trinity College Climbing Club
+    - left: Since 2020
+      right:
+        - Member, Cambridge University Ultimate Club
+    - left: Since 2019
+      right:
+        - Member, Trinity College Ultimate Club
+    - left: Since 2019
+      right:
+        - Member, Trinity College Rowing Club
+    - left: Since 2019
+      right:
+        - Member, Trinity College Climbing Club
+
+- title: Languages
+  entries:
+    - left: German
+      right:
+        - Native proficiency
+    - left: English
+      right:
+        - Professional proficiency
+    - left: French
+      right:
+        - Elementary proficiency
+
+- title: Further Skills and Interests
+  entries:
+    - left: Music
+      right:
+        - Piano, Clarinet, Drums
+        - Jazz improvisation, film music, digital composition
+    - left: Programming
+      right:
+        - c++, Python, HTML, CSS, JavaScript, Julia, MATLAB, Java, Haskell
+        - Scripting, game engine development, web applications
+    - left: Software
+      right:
+        - Microsoft Office, Adobe, LaTeX, Markdown, Git
+        - Windows, OSX, Linux
+    - left: Interests
+      right:
+        - Chess, Video Game Design, Hiking, Psychology

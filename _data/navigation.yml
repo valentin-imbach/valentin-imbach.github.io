@@ -1,0 +1,26 @@
+- name: Home
+  link: /
+- name: Resume
+  link: /resume.html
+- name: Contact
+  link: /contact.html
+- name: Problem Picker
+  link: /picker/index.html
+- name: Mathematics
+  link: #
+  subnav:
+    - name: Olympiad
+      link: /olympiad.html
+    - name: Research
+      link: /research.html
+    - name: Outreach
+      link: /outreach.html
+    - name: Resources
+      link: /resources.html
+- name: Programming
+  link: #
+  subnav:
+    - name: Game
+      link: /game.html
+    - name: Resources
+      link: /resources.html
