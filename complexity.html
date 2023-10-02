@@ -1,0 +1,81 @@
+---
+layout: default
+title: Complexity Map
+---
+
+<style>
+	#cy {
+		width: 50%;
+		height: 700px;
+		display: block;
+		border: 2px solid black;
+	}
+</style>
+
+<div id = "cy"></div>
+
+<button id = "centre-btn">Center</button>
+
+<script src="assets/js/cytoscape.min.js"></script>
+
+<script>
+var cy = cytoscape({
+	container: document.getElementById('cy'),
+	minZoom: 0.1,
+	maxZoom: 5,
+
+	elements: [ 
+		{ data: { id: 'L' } },
+		{ data: { id: 'NL' } },
+		{ data: { id: 'P' } },
+		{ data: { id: 'NP' } },
+		{ data: { id: 'coNP' } },
+		{ data: { id: 'PSPACE' } },
+		{ data: { id: 'EXP' } },
+
+		{ data: { id: 'L-NL', source: 'L', target: 'NL' } },
+		{ data: { id: 'NL-P', source: 'NL', target: 'P' } },
+		{ data: { id: 'P-NP', source: 'P', target: 'NP' } },
+		{ data: { id: 'P-coNP', source: 'P', target: 'coNP' } },
+		{ data: { id: 'NP-PSPACE', source: 'NP', target: 'PSPACE' } },
+		{ data: { id: 'coNP-PSPACE', source: 'coNP', target: 'PSPACE' } },
+		{ data: { id: 'PSPACE-EXP', source: 'PSPACE', target: 'EXP' } }
+	],
+
+	style: [{
+			selector: 'node',
+			style: {
+				'background-color': '#666',
+				'label': 'data(id)',
+				'text-valign': 'top'
+			}
+		}, {
+			selector: 'edge',
+			style: {
+				'width': 3,
+				'line-color': '#ccc',
+				'target-arrow-color': '#ccc',
+				'target-arrow-shape': 'triangle',
+				'curve-style': 'bezier',
+				'label': '⊆',
+				'source-distance-from-node': '5px',
+				'target-distance-from-node': '5px',
+				'text-rotation': 'autorotate'
+			}
+		}
+	],
+
+	layout: {
+		name: 'breadthfirst',
+		roots: ['L'],
+	}
+});
+
+document.getElementById('centre-btn').onclick = function f() { cy.resize(); }
+
+</script>
+
+
+
+
+</script>

@@ -4,8 +4,13 @@
   link: /resume.html
 - name: Contact
   link: /contact.html
-- name: Problem Picker
-  link: /picker/index.html
+- name: Apps
+  link: #
+  subnav:
+  - name: Problem Picker
+    link: /picker/index.html
+  - name: Complexity Map
+    link: /complexity.html
 - name: Mathematics
   link: #
   subnav:
