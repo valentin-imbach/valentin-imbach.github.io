@@ -55,6 +55,10 @@ plugins:
 #   - vendor/ruby/
 
 collections:
-  - definitions
-  - theorems
+  - nt-defs
+  - nt-thms
+  - anal-defs
+  - anal-thms
+  - portfolio
+  - sections
 

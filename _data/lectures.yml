@@ -1,0 +1,42 @@
+- year: Part IA
+  courses:
+    - Differential Equations
+    - Groups
+    - Numbers and Sets
+    - Vectors and Matrices
+    - Vector Calculus
+    - Analysis I
+    - Probability
+    - Dynamics and Relativity
+- year: Part IB
+  courses:
+    - Linear Algebra
+    - Analysis and Topology
+    - Markov Chains
+    - Groupd, Rings and Modules
+    - Geometry
+    - Complex Analysis
+    - Mathods
+    - Statistics
+- year: Part II
+  courses:
+    - Automata and Formal Languages
+    - Algebraic Topology
+    - Coding and Cryptography
+    - Graph Theory
+    - Logic and Set Theory
+    - Number Theory
+    - Topics in Analysis
+    - Number Fields*
+- year: Part III
+  courses:
+    - Introduction to Computational Complexity
+    - Extremal and Probabilistic Combinatorics
+    - Large Cardinals
+    - Logic and Computability
+    - Model Theory
+    - Ramsey Theory
+    - Combinatorics
+    - Representation Theory of Symmetric Groups*
+    - Category Theory*
+    - Information Theory*
