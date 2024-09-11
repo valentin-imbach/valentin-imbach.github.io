@@ -1,0 +1,5 @@
+---
+name: Prisoners Paradox
+---
+
+A prisoner is locked in a cell on Sunday and is told that they will be executed at exactly noon at some day during the next week, and that when this happens, the prisoner will be taken by surprise. While waiting in their cell, the prisoner reasons as following: If they execute me next Sunday, then since that is the last day they could do so, it would not come as a surprise. Thus, they must execute me on Saturday at the latest. But then similarly they cannot execute me on Saturday, as this would again be the last possible day they could do it, and I would expect them. Repeating the same argument, the prisoner happily conlcudes that their exacution is not possible under the stated conditions. However, to his great surprise, on Wednesday noon the prisoner gets executed.
