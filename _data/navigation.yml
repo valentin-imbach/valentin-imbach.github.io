@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: Research
-  link: /research.html
+- name: Academia
+  link: /academia.html
 - name: Olympiad
   link: /olympiad.html
 # - name: Outreach

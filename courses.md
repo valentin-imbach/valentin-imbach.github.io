@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lectures
+title: Courses
 ---
 
 <h1>{{ page.title }}</h1>
