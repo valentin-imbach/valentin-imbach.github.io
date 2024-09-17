@@ -5,19 +5,16 @@ title: Problem Portfolio
 
 <h1>Problem Portfolio</h1>
 
-This is a collection of some of my original problems that appeared at past mathematical competitions. For some of them, partial credit goes to my colleagues at the Swiss Matheamtical Olympiad whom I can always rely on to find ways around my intended solutions.
+This is a collection of some of my original problems that appeared at past mathematical competitions. For some of them, partial credit goes to my deer colleagues at the Swiss Mathematical Olympiad whom I can always rely on to find ways around my intended solutions.
 
-{% assign grouped = site.portfolio | group_by: 'exam' | sort: 'name'%}
-
-{% for group in grouped %}
-  <h1>{{ group.name }}</h1>
-  {% assign sorted = group.items | group_by: 'year' | sort: 'name'%}
-  {% for year in sorted %}
-    {% assign ordered = year.items | sort: 'problem'%}
-    {% for problem in ordered %}
-      <h2>{{ problem.exam }} {{ problem.year }}{% if problem.version %} ({{ problem.version }}){% endif %} – Problem {{ problem.number }}</h2>
-      <p>{{ problem.content }}</p>
-      <br>
-    {% endfor %}
+{% assign years = site.portfolio | group_by: 'year' | sort: 'name' | reverse %}
+{% for year in years %}
+  <h2>{{ year.name }}</h2>
+  {% for problem in year.items %}
+    <h3>{{ problem.exam }} {{ problem.year }}{% if problem.version %} ({{ problem.version }}){% endif %} – Problem {{ problem.number }}</h3>
+    {{ problem.content }}
+    <br>
   {% endfor %}
+  <br>
 {% endfor %}
+  
