@@ -1,7 +1,0 @@
----
-name: Raven paradox
----
-
-Consider the following statement: "All raven are black". While it is hard to prove such a fact mathematically, it is certainly possible to give evidence of this fact by finding lots of raven and observing them all to be black. If we are presented with lots of such evidence, we are more inclined to belive the statement.
-
-Now condier the logically equivalent contrapositive statement: "Everything that is not black is not a raven". Thus, by the same logic as above, observing that most green things are plants qualifies as evidence that all raven are black.

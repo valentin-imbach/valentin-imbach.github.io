@@ -1,20 +1,20 @@
 ---
-layout: default
+layout: page
 title: Problem Portfolio
 ---
 
-<h1>Problem Portfolio</h1>
+This is a collection of some of my original problems that appeared at past mathematical competitions. For some of them, partial credit goes to my deer colleagues at the Swiss Mathematical Olympiad whom I can always rely on to find ways around my intended solutions. Problems are stated as they appeared in the competition.
 
-This is a collection of some of my original problems that appeared at past mathematical competitions. For some of them, partial credit goes to my deer colleagues at the Swiss Mathematical Olympiad whom I can always rely on to find ways around my intended solutions.
+{% assign count = site.portfolio | size %}
+<p><strong>Problem count: {{ count }}</strong></p>
 
 {% assign years = site.portfolio | group_by: 'year' | sort: 'name' | reverse %}
 {% for year in years %}
-  <h2>{{ year.name }}</h2>
+  <h3>{{ year.name }}</h3>
   {% for problem in year.items %}
-    <h3>{{ problem.exam }} {{ problem.year }}{% if problem.version %} ({{ problem.version }}){% endif %} – Problem {{ problem.number }}</h3>
+    <strong>{{ problem.exam }} {{ problem.year }}{% if problem.version %} ({{ problem.version }}){% endif %} – Problem {{ problem.number }}</strong>
     {{ problem.content }}
     <br>
   {% endfor %}
-  <br>
 {% endfor %}
   

@@ -1,0 +1,33 @@
+---
+---
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./assets/css/latex.css">
+    <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+  </head>
+  <body>
+    <div class="Margins">
+      <h1>{{ page.title }}</h1>
+      {% if page.author %} <p class="LatexName">{{ page.author }}</p> {% endif %}
+      <p class="LatexDate">{{ site.time | date: '%-d %B %Y' }}</p>
+      
+      {% if page.abstract %}<div class="AbstractMargins">
+        <p class="LatexAbstract">Abstract</p>
+        <p class="LatexAbstractText">{{ page.abstract }}</p>
+      </div>{% endif %}
+
+      
+      {{ content }}
+
+
+    </div>
+  </body>
+  <footer class="footerSize">
+
+  </footer>
+</html>

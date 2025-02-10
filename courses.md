@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: page
 title: Courses
 ---
-
-<h1>{{ page.title }}</h1>
 
 This is a coprehensive list of lectures I attended as part of my studies in the Matheamtical Tripos at Cambridge University.
 

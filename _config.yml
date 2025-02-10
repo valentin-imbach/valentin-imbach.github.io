@@ -18,21 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: A Compendium of Self – Valentin Imbach
+email: valentn.imbach@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Personal website of Valentin Imbach, Mathematician.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  valentin-imbach
 
 # Build settings
-theme: minima
+theme:
+  # minima
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -43,12 +41,14 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-    - archive/
+    - legacy/
+    - assets/css/legacy
+    - unpublished/
+    - Gemfile
+    - Gemfile.lock
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
@@ -56,10 +56,10 @@ exclude:
 #   - vendor/ruby/
 
 collections:
-  - nt-defs
-  - nt-thms
-  - anal-defs
-  - anal-thms
+  # - nt-defs
+  # - nt-thms
+  # - anal-defs
+  # - anal-thms
   - portfolio
-  - sections
+  # - sections
 

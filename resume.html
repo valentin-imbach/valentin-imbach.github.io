@@ -1,27 +1,21 @@
 ---
-layout: default
+layout: page
 title: Resume
+number: 4.1
 ---
 
-<img class = "resume-img" src = "assets/images/petersen.svg">
-<div class = "resume">
-	<h1>Resume</h1>
-	{% for section in site.data.resume %}
-	<div class="tab">
-		<input type="checkbox" id="{{ section.title | slugify }}">
-		<label class="tab-label" for="{{ section.title | slugify }}">{{ section.title }}</label>
-		<div class="tab-content">
-			{% for entry in section.entries %}
-			<div class = "resume-entry">
-				<div class = "resume-left">{{ entry.left }}</div>
-				<div class = resume-right>
-					{% for line in entry.right %}
-						{{ line }}<br>
-					{% endfor %}
-				</div>
-			</div>
-			{% endfor %}
+
+{% for section in site.data.resume %}
+<h3>{{ section.title }}</h3>
+<div class="tab-content">
+	{% for entry in section.entries %}
+	<div class = "resume-entry">
+		<div class = "resume-left">{{ entry.left }}</div>
+		<div class = resume-right>
+			{% for line in entry.right %} {{ line }}<br> {% endfor %}
 		</div>
 	</div>
 	{% endfor %}
 </div>
+{% endfor %}
+

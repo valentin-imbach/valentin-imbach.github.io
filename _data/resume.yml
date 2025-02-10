@@ -1,86 +1,99 @@
-- title: Education
-  entries:
-    - left: 2022 – 2023
-      right:
-        - Masters in Mathematics, Mathematical Tripos Part III
-        - University of Cambridge, Honours Pass with Distinction
-    - left: 2019 – 2022
-      right:
-        - Bachelor in Mathematics, Mathematical Tripos
-        - University of Cambridge, First Class Honours
-    - left: 2015 – 2019
-      right:
-        - Swiss Matura, Mathematics and Natural Science Track
-        - MNG Rämibühl Zürich, average grade 5.38
-
 - title: Work Experience
   entries:
-    - left: Summer 2021
+    - left: Since 2024
       right:
-        - Intern, Cambridge University
-        - Development of teaching material
+      - Doctoral Candidate, EDIC, EPF Lausanne
+      - Research on Complexity Theory
+    - left: Summer 2024
+      right:
+        - Ultimate Workshops, GORILLA Switzerland
+        - Teaching Ultimate at secondary schools
+    - left: 2023 – 2024
+      right:
+        - Teaching and Childcare Assistant, Swiss civil service
+        - Primary School Riedhof-Pünten, Zurich
     - left: August 2020/22/23
       right:
         - Daycare Worker, KiZH Foundation
         - Holiday care for children aged 4 to 7
-    - left: Since 2014
+    - left: Summer 2021
+      right:
+        - Intern, Cambridge University
+        - Development of teaching material
+    - left: 2014 – 2020
       right:
         - Mathematics Tutor, Freelance
-        - For pupils and students of all levels
+        - For pupils and students of all ages
 
-- title: Extracurricular Courses
-  entries:
-    - left: Summer 2018
-      right:
-        - PROMYS Europe, University of Oxford
-    - left: 2017 – 2018
-      right:
-        - Math Youth Academy, ETH Zürich
-    - left: 2014 – 2017
-      right:
-        - Junior Euler Society, University of Zürich
-    - left: 2009 – 2013
-      right:
-        - Universikum, Zürich
 
-- title: Volunteering
+- title: Education
   entries:
-    - left: January 2020/21
+    - left: Since 2024
       right:
-        - Mentor, Shadowing Scheme
-        - University of Cambridge
-    - left: March 2020
+      - Doctoral Candidate, EDIC, EPF Lausanne
+      - Research on Complexity Theory
+    - left: 2022 – 2023
       right:
-        - Mentor, STEP Support Programme
-        - University of Cambridge
-    - left: March 2023
+        - Masters of Mathematics (MMath), University of Cambridge
+        - Mathematical Tripos Part III, Honours Pass with Distinction
+    - left: 2019 – 2022
       right:
-        - Mentor, Girls in Mathematics Day
-        - University of Cambridge
+        - Bachelor of Arts (MA), University of Cambridge
+        - Mathematical Tripos, First Class Honours, Senior Scholar
+    - left: 2015 – 2019
+      right:
+        - Swiss Matura, MNG Rämibühl, Zürich
+        - Mathematics and Natural Science Track, grade average 5.38
+
+
+# - title: Extracurricular Courses
+#   entries:
+#     - left: Summer 2018
+#       right:
+#         - PROMYS Europe, University of Oxford
+#     - left: 2017 – 2018
+#       right:
+#         - Math Youth Academy, ETH Zürich
+#     - left: 2014 – 2017
+#       right:
+#         - Junior Euler Society, University of Zürich
+#     - left: 2009 – 2013
+#       right:
+#         - Universikum, Zürich
+
+# - title: Volunteering
+#   entries:
+#     - left: March 2023
+#       right:
+#         - Mentor, Girls in Mathematics Day
+#         - University of Cambridge
+#     - left: January 2020/21
+#       right:
+#         - Mentor, Shadowing Scheme
+#         - University of Cambridge
+#     - left: March 2020
+#       right:
+#         - Mentor, STEP Support Programme
+#         - University of Cambridge
+
 
 - title: Associations and Societies
   entries:
-    - left: 2022 – 2023
+    - left: 2020 – 2025
       right:
-        - Constable, Trinity Mathematical Society
-    - left: 2021 – 2022
+        - Swiss Study Foundation
+    # - left: January 2021
+    #   right:
+    #     - Watersprites Film Festival
+    #     - Juror for Original Film Music
+    - left: Since 2019
       right:
-        - President, Trinity Mathematical Society
-    - left: 2020 – 2021
+        - Trinity Mathematical Society
+        - Membership Secretary, President, Constable
+    - left: Since 2019
       right:
-        - Membership Secretary, Trinity Mathematical Society
-    - left: Since 2020
-      right:
-        - Member, Swiss Study Foundation
-    - left: Since 2022
-      right:
-        - Academic Director, Swiss Mathematical Olympiad
-    - left: Since 2023
-      right:
-        - Vice President, Swiss Mathematical Olympiad
-    - left: January 2021
-      right:
-        - Juror for Original Film Music, Watersprites Film Festival
+        - Swiss Mathematical Olympiad
+        - Academic Director, Vice Pesident
 
 - title: Awards and Scholarships
   entries:
@@ -88,42 +101,40 @@
       right:
         - Sherlock Prize, University of Cambridge
         - For greatest improvement during the Mathematical Tripos
-    - left: September 2017
-      right:
-        - Best International Team Success, Swiss Science Olympiads
-    - left: September 2018/19
-      right:
-        - Best Interdisciplinary Achievement, Swiss Science Olympiads
+    # - left: September 2017
+    #   right:
+    #     - Best International Team Success, Swiss Science Olympiads
+    # - left: September 2018/19
+    #   right:
+    #     - Best Interdisciplinary Achievement, Swiss Science Olympiads
 
-- title: Sports
-  entries:
-    - left: 2022 – 2023
-      right:
-        - Captain, Cambridge University Ultimate Club
-    - left: Since 2022
-      right:
-        - Member, Zürich Ultimate Club
-    - left: 2021 – 2022
-      right:
-        - Captain, Trinity College Ultimate Club
-    - left: Since 2021
-      right:
-        - Member, Cambridge University Mountaineering Club
-    - left: 2020 – 2021
-      right:
-        - Captain, Trinity College Climbing Club
-    - left: Since 2020
-      right:
-        - Member, Cambridge University Ultimate Club
-    - left: Since 2019
-      right:
-        - Member, Trinity College Ultimate Club
-    - left: Since 2019
-      right:
-        - Member, Trinity College Rowing Club
-    - left: Since 2019
-      right:
-        - Member, Trinity College Climbing Club
+# - title: Sports
+#   entries:
+#     - left: Since 2024
+#       right:
+#         - Ultimate Club Lausanne "FlyHigh" 
+#     - left: Since 2022
+#       right:
+#         - Zürich Ultimate
+#         - Captain, Board Member for "Spirit of the Game"
+#     - left: Since 2021
+#       right:
+#         - Cambridge University Mountaineering Club
+#     - left: Since 2020
+#       right:
+#         - Cambridge University Ultimate Club "Strange Blue"
+#         - Captain
+#     - left: Since 2019
+#       right:
+#         - Trinity College Ultimate Club
+#         - Vice Captain, Captain
+#     - left: Since 2019
+#       right:
+#         - Trinity College Climbing Club
+#         - Captain
+#     - left: Since 2019
+#       right:
+#         - Trinity College Rowing Club "First and Thirds"
 
 - title: Languages
   entries:
@@ -137,20 +148,20 @@
       right:
         - Elementary proficiency
 
-- title: Further Skills and Interests
-  entries:
-    - left: Music
-      right:
-        - Piano, Clarinet, Drums
-        - Jazz improvisation, film music, digital composition
-    - left: Programming
-      right:
-        - c++, Python, HTML, CSS, JavaScript, Julia, MATLAB, Java, Haskell
-        - Scripting, game engine development, web applications
-    - left: Software
-      right:
-        - Microsoft Office, Adobe, LaTeX, Markdown, Git
-        - Windows, OSX, Linux
-    - left: Interests
-      right:
-        - Chess, Video Game Design, Hiking, Psychology
+# - title: Further Skills and Interests
+#   entries:
+#     - left: Music
+#       right:
+#         - Piano, Clarinet, Drums
+#         - Jazz improvisation, film music, digital composition
+#     - left: Programming
+#       right:
+#         - c++, Python, Julia, MATLAB, Java, Haskell
+#         - HTML, CSS, JavaScript
+#     - left: Software
+#       right:
+#         - Microsoft Office, Adobe, LaTeX, Markdown, Git
+#         - Windows, OSX, Linux
+#     - left: Interests
+#       right:
+#         - Chess, Video Game Design, Hiking, Psychology

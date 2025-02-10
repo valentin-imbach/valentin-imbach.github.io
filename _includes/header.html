@@ -1,2 +1,10 @@
-
-{% include navigation.html %}
+<nav>
+    <a href = "/" >Home</a>
+    {% for item in site.data.navigation %}
+      {% if item.header != "Appendix" %}
+        {% for entry in item.entries %}
+          <a href = "{{ entry.link }}" {% if page.url == entry.link %} class = "current" {% endif %}>{{ entry.title }}</a>
+        {% endfor %}
+      {% endif %}
+    {% endfor %}
+</nav>

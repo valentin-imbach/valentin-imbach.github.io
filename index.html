@@ -1,34 +1,45 @@
 ---
-layout: home
-title: Home
+layout: landing
+title: A Brief Compendium of Self
 ---
 
-<div class = intro>
-	<div class = intro-text>
-		<p>Hi, my name is</p>
-		<h1>Valentin Imbach</h1>
-		<p>and I am a mathematician.<p>
-
-		<p>At the moment I am a first year PhD candidate at EPF Lausanne with a fellowship at the Department of Computer and Communication Sciences. Before that, I did my bachelor's and master's degrees at the University of Cambridge, specialising in mathematical logic and computation theory. My research interests include Complexity Theory, Computability Theory and Automata Theory.</p>
-
-		<!-- <a href = "/resume.html">Resume</a> -->
-
-		<a href = "mailto:valentin.imbach@epfl.ch">valentin.imbach@epfl.ch</a>
-		<br>
-		<br>
-		<a href = "https://www.linkedin.com/in/valentin-imbach">LinkedIn</a>
-
-	</div>
-	<div class = intro-pic>
-		<img src = "assets/images/me.jpg">
-	</div>
+<h1>{{ page.title }}</h1>
+<p class="author">Valentin Imbach</p>
+<p class="date">{{ site.time | date: '%-d %B %Y' }}</p>
+  
+<div class="abstract">
+    <p class="abstractTitle">Abstract</p>
+    <p class="abstractText">
+        I am a first-year PhD candidate at EPF Lausanne, working on complexity theory under <a href = "https://ic-people.epfl.ch/~goos/">Mika Göös</a>. I did my bachelor's and master's degrees at the University of Cambridge, specialising in the mathematical logic and computation theory. I write code, play sports and occasionally create music.
+    </p>
 </div>
 
-{% assign sorted = site.pages | where_exp: "item", "item.landing >= 1" | sort: 'landing' %}
-{% for page in sorted %}
-	<div class = section>
-		<h2>{{ page.title }}</h3>
-		<p>{{ page.abstract }}</p>
-		<a href = "{{ page.url }}">read more</a>
-	</div>
+<figure class = "portrait">
+    <img src="assets/images/me.jpg">
+    <figcaption>Figure 1: Me</figcaption>
+</figure>
+
+<h2>Contents</h2>
+
+{% assign page_numbers = "2,3,5,7,11,13,17,19,23,29,31" | split: ',' %}
+{% assign index = 0 %}
+
+{% for item in site.data.navigation %}
+    {% assign section = forloop.index %}
+    <div class = "toc-header">
+        <div class = "toc-title">{{ section }} &ensp; {{ item.header }}</div>
+        <div class = "toc-line"></div>
+        <div class = "toc-pn">{{ page_numbers[index] }}</div>
+    </div>
+    {% assign index = index | plus: 1 %}
+    {% for entry in item.entries %}
+        <div class = "toc-entry">
+            <div class = "toc-title">{{ section }}.{{ forloop.index }} &ensp; <a href = "{{ entry.link }}">{{ entry.title }}</a></div>
+            <div class = "toc-line"></div>
+            <div class = "toc-pn">{{ page_numbers[index] }}</div>
+        </div>
+        {% assign index = index | plus: 1 %}
+    {% endfor %}
 {% endfor %}
+
+

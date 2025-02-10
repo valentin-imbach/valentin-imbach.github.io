@@ -1,0 +1,28 @@
+---
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script> window.MathJax = { tex: { inlineMath: [['$', '$']] } };</script>
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <title>{{ page.title }}</title>
+  </head>
+  
+
+  <body>
+    <header>
+      {% include header.html %}
+    </header>
+
+    <main>
+      <h2>{% if page.number %} {{page.number}}  &ensp; {% endif %}{{page.title}}</h2>
+      {{ content }}
+    </main>
+
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </body>
+</html>

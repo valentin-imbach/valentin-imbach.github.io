@@ -1,14 +1,22 @@
-- name: Home
-  link: /
-- name: Academia
-  link: /academia.html
-- name: Olympiad
-  link: /olympiad.html
-# - name: Outreach
-#   link: /outreach.html
-- name: Hobbies
-  link: /hobbies.html
-# - name: Resources
-#   link: /resources.html
-# - name: Contact
-#   link: /contact.html
+- header: Academia
+  entries:
+    - title: Education
+      link: /education.html
+    - title: Research
+      link: /research.html
+- header: Outreach
+  entries:
+    - title: Olympiad
+      link: /olympiad.html
+- header: Hobbies
+  entries:
+    - title: Sports
+      link: /sports.html
+    # - title: Projects
+    #   link: /projects.html
+- header: Appendix
+  entries:
+    - title: Resume
+      link: /resume.html 
+    - title: Contact
+      link: /contact.html

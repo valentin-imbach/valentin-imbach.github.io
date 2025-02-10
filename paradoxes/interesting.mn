@@ -1,5 +1,0 @@
----
-name: Interesting paradox
----
-
-Some positive integers are interesting. For example, the integer $1$ is interesting beacuse it is the smallest positive integer, the integer $2$ is interesting because it is the only even prime number, etc. However, clealry not all positive integers are interesting. Thus, we can define $n$ as teh smallest positive integer that is not interesting. However, this fact about $n$ makes it quite an intersting integer.
