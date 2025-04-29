@@ -27,6 +27,9 @@ body {
 	font-family: CMR;
     font-size: 21px;
     line-height: 125%;
+    @media (max-width: 480px) {
+    	font-size: 30px;
+    }
     strong {
     	font-family: CMB;
     }

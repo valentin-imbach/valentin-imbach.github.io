@@ -1,0 +1,211 @@
+
+# Swiss Championships
+
+- name: Swiss Championships Mixed
+  year: 2022
+  team: ZebraH
+  club: Zürich Ultimate
+
+- name: Swiss Beach Championships Mixed
+  year: 2023
+  team: ZebraH
+  club: Zürich Ultimate
+  award: Bronze
+
+- name: Swiss Championships Mixed
+  year: 2023
+  team: ZebraH
+  club: Zürich Ultimate
+
+- name: Swiss Beach Championships Open
+  year: 2024
+  team: platZHirsch
+  club: Zürich Ultimate
+  award: Bronze
+
+- name: Swiss Beach Championships Mixed
+  year: 2024
+  team: ZebraH
+  club: Zürich Ultimate
+
+- name: Swiss Championships Open
+  year: 2024
+  team: platZHirsch
+  club: Zürich Ultimate
+
+- name: Swiss Championships Mixed
+  year: 2024
+  team: ZebraH
+  club: Zürich Ultimate
+
+# Indoors
+
+- name: Colors Indoors
+  year: 2025
+  club: FlyHigh Lausanne
+
+- name: Colors Indoors
+  year: 2024
+  team: Headless
+  club: Zürich Ultimate
+
+# Beach Fun
+
+- name: Paganello
+  year: 2024
+  team: DreamTeam
+
+- name: Paganello
+  year: 2025
+  team: DreamTeam
+
+- name: Costa Brava
+  year: 2025
+  club: FlyHigh Lausanne
+
+# European Season
+
+- name: Spring Tour Grenoble
+  year: 2024
+  team: platZHirsch
+  club: Zürich Ultimate
+
+- name: Spring Tour Grenoble
+  year: 2025
+  team: Løsanson
+  club: FlyHigh Lausanne
+
+# World Championships
+
+- name: World Beach Ultimate Club Championships
+  year: 2024
+  team: platZHirsch
+  club: Zürich Ultimate
+
+# Fun Grass
+
+- name: Missuldisc
+  year: 2024
+  team: Bamboozels
+
+- name: Missuldisc
+  year: 2025
+  team: Bamboozels
+
+- name: Südsee Cup
+  year: 2023
+  team: ZebraH
+  club: Zürich Ultimate
+
+- name: Südsee Cup
+  year: 2024
+  team: ZebraH / FucZH
+  club: Zürich Ultimate
+
+# Preparation
+
+- name: Skybowl
+  year: 2024
+  team: ZebraH
+  club: Zürich Ultimate
+
+- name: Skybowl
+  year: 2025
+  team: Løsanson
+  club: FlyHigh
+
+- name: Snow Melt
+  year: 2025
+  team: Løsanson
+  club: FlyHigh
+
+# Hat
+
+- name: Zürich Hat
+  year: 2024
+
+# Leagues
+
+- name: SUDT League
+  year: 2024
+  team: platZHirsch
+  club: Zürich Ultimate
+
+- name: BUCS League
+  year: 2021
+  team: Open Firsts
+  club: Cambridge Univeristy Ultimate Club
+
+- name: BUCS League
+  year: 2022
+  team: Open Firsts
+  club: Cambridge Univeristy Ultimate Club
+
+- name: BUCS League
+  year: 2023
+  team: Open Firsts
+  club: Cambridge Univeristy Ultimate Club
+
+- name: Cambridge University College League
+  year: 2020
+  team: Trinity College Ultimate
+
+- name: Cambridge University College League
+  year: 2021
+  team: Trinity College Ultimate
+
+- name: Cambridge University College League
+  year: 2022
+  team: Trinity College Ultimate
+
+- name: Cambridge University College League
+  year: 2023
+  team: Trinity College Ultimate
+
+# UK Championships
+
+- name: UK University Outdoor Nationals Open (division 2)
+  year: 2023
+  team: Open Firsts
+  club: Cambridge Univeristy Ultimate Club
+  result: Silver
+
+- name: UK University Outdoor Nationals Open (division 3)
+  year: 2022
+  team: Open Firsts
+  club: Cambridge Univeristy Ultimate Club
+  result: Gold
+
+- name: UK University Indoor Regionals Open (East & London)
+  year: 2022
+  team: Open Firsts
+  club: Cambridge Univeristy Ultimate Club
+  result: Gold
+
+# Varisties
+
+- name: Varsity 
+  year: 2025
+  team: Alumni
+  club: Cambridge Univeristy Ultimate Club
+
+- name: Varsity 
+  year: 2024
+  team: Alumni
+  club: Cambridge Univeristy Ultimate Club
+
+- name: Varsity 
+  year: 2023
+  team: Open Firsts, Mixed Firsts
+  club: Cambridge Univeristy Ultimate Club
+
+- name: Varsity 
+  year: 2022
+  team: Open Firsts, Mixed Firsts
+  club: Cambridge Univeristy Ultimate Club
+
+- name: Varsity 
+  year: 2021
+  team: TODO
+  club: Cambridge Univeristy Ultimate Club
+
