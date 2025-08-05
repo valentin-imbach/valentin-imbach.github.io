@@ -216,3 +216,21 @@ h3 {
 
 }
 
+.portfolio-filter {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.problem {
+  margin-top: 50px;
+}
+
+.tournaments {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 30px 100px;
+  p {
+    margin: 0;
+  }
+ }

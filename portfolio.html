@@ -1,20 +1,79 @@
 ---
 layout: page
-title: Problem Portfolio
+title: Problem Portfoli
 ---
 
-This is a collection of some of my original problems that appeared at past mathematical competitions. For some of them, partial credit goes to my deer colleagues at the Swiss Mathematical Olympiad whom I can always rely on to find ways around my intended solutions. Problems are stated as they appeared in the competition.
+This is the collection of my original problems that have appeared in mathematical Olympiads.
+For some of them, partial credit goes to my colleagues.
+Problems are stated as they appeared in the competition, with minor stylistic adjustments.
+
+<div class = "portfolio-filter">
+    <div> 
+        <input type="checkbox" id="algebra" checked>
+        <label for="algebra">Algebra</label><br>
+        <input type="checkbox" id="combinatorics" checked>
+        <label for="combinatorics">Combinatorics</label><br>
+        <input type="checkbox" id="geometry" checked>
+        <label for="geometry">Geometry</label><br>
+        <input type="checkbox" id="number-theory" checked>
+        <label for="number-theory">Number Theory</label>
+    </div>
+    <div>
+        <input type="checkbox" id="swiss-second-round" checked>
+        <label for="swiss-second-round">Swiss Second Round</label><br>
+        <input type="checkbox" id="swiss-final-round" checked>
+        <label for="swiss-final-round">Swiss Final Round</label><br>
+        <input type="checkbox" id="swiss-tst" checked>
+        <label for="swiss-tst">Swiss TST</label><br>
+        <input type="checkbox" id="other" checked>
+        <label for="other">Other</label>
+    </div>
+    <div>
+        <br>
+        <label for="search">Text Search</label><br>
+        <input type="text" id="search" maxlength="15" size="16"></input>
+    </div>
+</div>
 
 {% assign count = site.portfolio | size %}
-<p><strong>Problem count: {{ count }}</strong></p>
+<p><strong>Displayed: <span id='count'>{{ count }}</span>/{{ count }}</strong></p>
 
-{% assign years = site.portfolio | group_by: 'year' | sort: 'name' | reverse %}
-{% for year in years %}
-  <h3>{{ year.name }}</h3>
-  {% for problem in year.items %}
-    <strong>{{ problem.exam }} {{ problem.year }}{% if problem.version %} ({{ problem.version }}){% endif %} – Problem {{ problem.number }}</strong>
+{% assign problems = site.portfolio | reverse %}
+{% for problem in problems %}
+<div class='problem {{ problem.topic | downcase | replace: " ", "-"}} {{ problem.exam  | downcase | replace: " ", "-"}}'>
+    <strong>{{ problem.exam }} {{ problem.year }}
+    {% if problem.version %} ({{ problem.version }}){% endif %} – Problem {{ problem.number }}
+    </strong>
     {{ problem.content }}
-    <br>
-  {% endfor %}
+</div>
 {% endfor %}
-  
+
+<script>
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    const problems = document.querySelectorAll('div.problem');
+    const tags = ['algebra', 'combinatorics', 'geometry', 'number-theory',
+        'swiss-second-round', 'swiss-final-round', 'swiss-tst'];
+    const search = document.getElementById('search');
+
+    function filter(div) {
+        for (const tag of tags) {
+            if (div.classList.contains(tag) && !document.getElementById(tag).checked) { return false; }
+        }
+        if (!div.className.includes('swiss') && !document.getElementById('other').checked) { return false; }
+        return div.textContent.toLowerCase().includes(search.value.toLowerCase());
+    }
+
+    function update() {
+        var count = 0;
+        problems.forEach(div => {
+            var show = filter(div);
+            div.style.display = show ? '' : 'none';
+            if (show) { count += 1 };
+        });
+        document.getElementById('count').innerHTML = count;
+    }
+
+    checkboxes.forEach(checkbox => { checkbox.addEventListener('change', update); });
+    search.addEventListener('input', update);
+    
+</script>
