@@ -14,6 +14,7 @@ At the beginning of my bachelor's studies in Cambridge I discovered the sport of
 
 - Since 2024: Swiss National Team, Elite Open
 - Since 2024: Lausanne Ultimate Club "FlyHigh"
+    - Captain of the Open Team *Løsanson*
 - Since 2022: Zürich Ultimate
 	- Board Member for Spirit of the Game
 	- First Open Team *platZHirsch*

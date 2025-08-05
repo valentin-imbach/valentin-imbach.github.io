@@ -4,20 +4,33 @@ title: Education
 number: 1.1
 ---
 
-I grew up in Zürich, Switzerland, and discovered my affinity for mathematics while participating in many national and international [mathematics competitions](olympiad.html) during my high school years at MNG Rämibühl. In 2018, I attended the [PROMYS Europe](https://promys-europe.org/) Summer School in Oxford where I got my first taste of academia. For my high school graduation project in 2019, I wrote an exposition entitled [On the Probabilistic Method and Permutations](matura.pdf).
+I grew up in Zürich, Switzerland, and discovered my affinity for mathematics while participating
+in many national and international [mathematics competitions](olympiad.html) during my high school
+years at MNG Rämibühl. In 2018, I attended the [PROMYS Europe](https://promys-europe.org/) Summer School
+in Oxford where I got my first taste of academia. For my high school graduation project in 2019,
+I wrote an exposition entitled [On the Probabilistic Method and Permutations](matura.pdf).
 
 ### Undergrad
 
-I received my bachelor's (**BA**) and master's (**MMath**) degrees in 2023 after completing the full [Mathematical Tripos](https://en.wikipedia.org/wiki/Mathematical_Tripos) at Trinity College of the University of Cambridge Enjoying a wide range of [courses](/courses.html) on pure mathematics, I soon discovered my passion for the foundations of mathematics, in particular logic and computation theory. I wrote my final master's project (Part III Essay) entitled [Transfinite Context-Free Generative Grammars](/downloads/essay.pdf) on extensions of classical formal language results to words of transfinite length.
+I received my bachelor's (**BA**) and master's (**MMath**) degrees in 2023 after completing
+the full [Mathematical Tripos](https://en.wikipedia.org/wiki/Mathematical_Tripos) at Trinity College
+of the University of Cambridge. Enjoying a wide range of [courses](/courses.html) on pure mathematics,
+I soon discovered my passion for its foundations, in particular logic and computation theory.
+I wrote my final master's project (Part III Essay) entitled
+[Transfinite Context-Free Generative Grammars](/downloads/essay.pdf) on extensions of classical
+formal language results to words of transfinite length.
 
 <figure>
     <img src="assets/images/hat.jpg">
     <figcaption>Figure 1: Graduating in Hat</figcaption>
 </figure>
 
-At Cambridge University, the Master's of Arts (**MA**) degree is conferred by right on holders a certain amount of time after the beginning of their bachelor's studies. This will apply to me after spring 2026.
+At Cambridge University, the Master's of Arts (**MA**) degree is conferred by right on holders
+a certain amount of time after the beginning of their bachelor's studies.
+This will apply to me after spring 2026.
 
-<!-- I was honoured to be elected president of the [Trinity Mathematical Society](https://tms.soc.srcf.net/) and captain at the Cambridge University Ultimate Frisbee Club [Strange Blue](https://www.strangeblue.org/). -->
+I was honoured to be elected president of the [Trinity Mathematical Society](https://tms.soc.srcf.net/),
+as well as captain at the Cambridge University Ultimate Club [Strange Blue](https://www.strangeblue.org/).
 
 <!-- It was during my high school years that I decided to pursue mathematics at university. At the time, I participated in many mathematics competitions, through which I discovered my passion for the subject. My participation at the summer school PROMYS Europe at the University of Oxford also had no little part in my goal of becoming a research mathematician. It was also during that summer school that I fell in love with the historic British Universities. After graduating high school, I started my undergrad in mathematics at Trinity College of the University of Cambridge. The three-year course entitled "Mathematical Tripos" covered a wide range of topics, which increased choice as the years progressed. 
 

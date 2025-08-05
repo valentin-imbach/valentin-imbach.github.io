@@ -9,13 +9,15 @@ foundations and computation theory. The fields I am enthusiastic about include c
 computability theory, automata and formal language theory and logic.
 
 I am part of [Theory Lab 5](https://theory.epfl.ch) at EDIC, the computer science department of EPFL,
-where I am a doctoral candidate under [Mika Göös](https://ic-people.epfl.ch/~goos). My group works on subfields of complexity theory,
-currently with a focus on communication complexity, proof complexity, query complexity and TFNP theory.
+where I am a doctoral candidate under [Mika Göös](https://ic-people.epfl.ch/~goos).
+My group works on subfields of complexity theory, with a focus on communication complexity,
+proof complexity, query complexity and TFNP theory.
 
 ### Publications
 
-1. [**Sign-Rank of k-Hamming Distance is Constant**](https://eccc.weizmann.ac.il/report/2025/060) (2025, preprint)\
-with Mika Göös, Nathan Harms and Dmitry Sokolov
+1. **Sign-Rank of k-Hamming Distance is Constant**
+(FOCS 2025, [arχiv](https://arxiv.org/abs/2506.12022), [ECCC](https://eccc.weizmann.ac.il/report/2025/060))\
+with Mika Göös, Nathan Harms and Dmitry Sokolov. 
 
 <figure>
     <img src="assets/images/grass.jpg">
