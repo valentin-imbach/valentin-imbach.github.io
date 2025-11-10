@@ -4,9 +4,23 @@ title: Olympiad
 number: 2.1
 ---
 
-I am the **Academic Director** at the [Swiss Mathematical Olympiad](https://mathematical.olympiad.ch/en/), an annual national mathematics competition. The primary purpose of the competition is to select a team to represent Switzerland at the [International Mathematical Olympiad (IMO)](https://www.imo-official.org/), but we also send a team to the [Middle European Mathematical Olympiad (MEMO)](https://www.memo-official.org/MEMO/contests/previous/) every year. The national competition consists of several rounds, numerous preparation meetings, a training weekend, and a week-long camp for finalists, followed by many more events for those who qualify for international Olympiads. The competition covers topics that greatly differ from the school curriculum, focusing on logical thinking, creative problem-solving, and proofwriting. Every year, the Olympiad provides a platform for young people from all over Switzerland to interact and compete with like-minded peers, all while learning new mathematics.
+I am the **Academic Director** of the [Swiss Mathematical Olympiad](https://mathematical.olympiad.ch/en/),
+a national mathematics competition for high school students. The primary purpose of the competition is to select a
+delegation to represent Switzerland at the [International Mathematical Olympiad (IMO)](https://www.imo-official.org/)
+and the [Middle European Mathematical Olympiad (MEMO)](https://www.memo-official.org/MEMO/contests/previous/).
 
-Together with other volunteers, I create, supervise and correct exams, write teaching material, organise and implement training camps, and lead the best students to international competitions every year. One of my main contributions is the creation of [original problems](/portfolio.html) for the Swiss Mathematical Olympiad and various international contests. The Swiss Mathematical Olympiad is part of a larger network of [Swiss Science Olympiads](https://science.olympiad.ch/en/).
+Our agenda includes several rounds of competition, numerous preparation meetings, a training weekend,
+and a week-long camp for finalists, followed by many more events for those who qualify for international events.
+The topics covered differ vastly from the school curriculum, focusing on logical thinking, creative problem-solving,
+and proof-writing. Every year, the Olympiad provides a platform for young people from all over Switzerland to interact
+and compete with like-minded peers, all while learning new mathematics.
+
+Together with other volunteers, I create, supervise and correct exams, write teaching material,
+organise and implement training camps, and lead the best students to international competitions every year.
+One of my main contributions is the creation of [original problems](/portfolio.html) for the Swiss Mathematical Olympiad
+and various international contests.
+
+The Swiss Mathematical Olympiad is part of a larger network of [Swiss Science Olympiads](https://science.olympiad.ch/en/).
 
 <figure>
     <img src="assets/images/memo.jpg">
@@ -14,7 +28,7 @@ Together with other volunteers, I create, supervise and correct exams, write tea
 </figure>
 
 ### Roles at International Olympiads
-I've been involved at many intenrational mathematics competitions and plan to attend many more.
+I've been involved at many international mathematics competitions and plan to attend many more.
 - **Team Leader Liechtenstein** at the IMO 2025 in Australia
 - **Coordinator\*** at the Pan African Mathematics Olympiad 2024
 - **Team Leader Switzerland** at MEMO 2024 in Hungary
@@ -32,7 +46,8 @@ I've been involved at many intenrational mathematics competitions and plan to at
 
 \*remote participation
 
-I have also been involved in many international training events, giving lectures to the IMO delegations from Switzerland, Liechtenstein, Austria, Germany, Slovenia, Costa Rica and Kenya.
+I have also been involved in many international training events, giving lectures to the IMO delegations from Switzerland,
+Liechtenstein, Austria, Germany, Slovenia, Costa Rica and Kenya.
 
 ### Awards
 
@@ -49,20 +64,27 @@ During my high school days, I myself participated very successfully in many math
 - **Gold Medal** at the Swiss PANGEA Mathematical Contest 2016
 - **Gold Medal** at the Swiss PANGEA Mathematical Contest 2015
 
-A detailed breakdown of my performance at the International Mathematical Olympiad can be found on [imo-official](https://www.imo-official.org/participant_r.aspx?id=27554). Besides the Swiss Mathematical Olympiad, I participated in various other training programs for mathematics competitions, including the [UZH Junior Euler Society](https://jes.math.uzh.ch/home) and the [ETH Youth Academy](https://educ.ethz.ch/lernzentren/mint-lernzentrum/ETH_Youth_Academy.html).
+A detailed breakdown of my performance at the International Mathematical Olympiad can be found
+on [imo-official](https://www.imo-official.org/participant_r.aspx?id=27554).
+Besides the Swiss Mathematical Olympiad, I participated in various other training programs for mathematics competitions,
+including the [UZH Junior Euler Society](https://jes.math.uzh.ch/home) and
+the [ETH Youth Academy](https://educ.ethz.ch/lernzentren/mint-lernzentrum/ETH_Youth_Academy.html).
 
 <figure>
     <img src="assets/images/bronze.jpg">
     <figcaption>Figure 1: Almost Gold</figcaption>
 </figure>
 
-I also participated in some other science Olympiads, most notable the [International Olympiad in Informatics](https://ioinformatics.org/) (IOI).
+I also participated in some other science Olympiads, most notable
+the [International Olympiad in Informatics](https://ioinformatics.org/) (IOI).
 - **Participation** (21%) at IOI 2019 in Azerbaijan
 - **Gold Medal** at the Swiss Olympiad in Informatics 2019
 - **Bronze Medal** at the Swiss Philosophy Olympiad 2019
 - **Participation** (31%) at IOI 2018 in Japan
 - **Silver Medal** at the Swiss Olympiad in Informatics 2018
 
-In 2018 as well as 2019, I was given the award for "Best Swiss Interdisciplinary Achievement" by the association Swiss Science Olympiads. Moreover, my team and I got the award for "Best Swiss Team Achievement" for our perfrmance at IMO 2017.
+In 2018 as well as 2019, I was given the award for "Best Swiss Interdisciplinary Achievement" by the association
+Swiss Science Olympiads.
+Moreover, my team and I got the award for "Best Swiss Team Achievement" for our performance at IMO 2017.
 
 

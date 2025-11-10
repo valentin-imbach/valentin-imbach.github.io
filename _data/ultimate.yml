@@ -38,10 +38,15 @@
   team: ZebraH
   club: Zürich Ultimate
 
-- name: Swiss Championshups Open
+- name: Swiss Championships Open
   year: 2025
   team: Løsanson
   club: FlyHigh Lausanne
+
+- name: Swiss Championships Mixed
+  year: 2025
+  team: MeufReuf
+  clib: FlyHigh Lausanne
 
 # Indoors
 
@@ -53,6 +58,11 @@
   year: 2024
   team: Headless
   club: Zürich Ultimate
+
+- name: AVO-K
+  year: 2025
+  club: FlyHigh Lausanne
+  result: Silver
 
 # Beach Fun
 
@@ -107,6 +117,11 @@
   team: ZebraH / FucZH
   club: Zürich Ultimate
 
+- name: Smells Like Disc Spirit
+  year: 2025
+  team: FlyLow
+  result: Silver
+
 # Preparation
 
 - name: Skybowl
@@ -128,6 +143,10 @@
 
 - name: Zürich Hat
   year: 2024
+
+- name: Force Lake
+  year: 2025
+  result: Bronze
 
 # Leagues
 
