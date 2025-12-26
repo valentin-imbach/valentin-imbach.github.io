@@ -1,9 +1,9 @@
 - header: Academia
   entries:
-    - title: Education
-      link: /education.html
     - title: Research
       link: /research.html
+    - title: Education
+      link: /education.html
 - header: Outreach
   entries:
     - title: Olympiad
