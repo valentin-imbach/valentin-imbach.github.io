@@ -64,6 +64,19 @@
   club: FlyHigh Lausanne
   result: Silver
 
+- name: Temps Mort
+  year: 2025
+  club: FlyHigh Lausanne
+
+- name: Chlausturnier
+  year: 2025
+  club: FlyHigh Lausanne
+
+- name: Hopla
+  year: 2025
+  team: The Greatest Show
+  result: Gold
+
 # Beach Fun
 
 - name: Paganello
@@ -120,7 +133,7 @@
 - name: Smells Like Disc Spirit
   year: 2025
   team: FlyLow
-  result: Silver
+  result: Silver + Spirit
 
 # Preparation
 
@@ -149,6 +162,18 @@
   result: Bronze
 
 # Leagues
+
+# - name: ZU Winter League
+#   year: 2023
+#
+# - name: ZU Winter League
+#   year: 2024
+#
+# - name: FlyHigh Autumn League
+#   year: 2024
+#
+# - name: FlyHigh Autumn League
+#   year: 2025
 
 - name: SUDT League
   year: 2024
@@ -205,6 +230,24 @@
   team: Open Firsts
   club: Cambridge Univeristy Ultimate Club
   result: Gold
+
+# Cuppers
+
+- name: Cambridge University Indoor Cuppers
+  year: 2021
+  team: Trinity College Ultimate
+
+- name: Cambridge University Indoor Cuppers
+  year: 2022
+  team: Trinity College Ultimate
+
+- name: Cambridge University Outdoor Cuppers
+  year: 2022
+  team: Trinity College Ultimate
+
+- name: Cambridge University Outdoor Cuppers
+  year: 2023
+  team: Trinity College Ultimate
 
 # Varisties
 
