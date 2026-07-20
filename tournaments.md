@@ -3,10 +3,8 @@ layout: page
 title: Ultimate Tournaments
 ---
 
-This is a incomplete list of ultimate tournaments and leagues I have played in.
-
-<br>
-<br>
+This is an incomplete list of ultimate tournaments, championships and leagues I have played in over the years.
+There are currently **{{ site.data.ultimate | size }}** events listed below.
 
 <div class="tournaments">
     {% assign sorted = site.data.ultimate | sort: 'year' | reverse %}

@@ -48,16 +48,31 @@
   team: MeufReuf
   clib: FlyHigh Lausanne
 
-# Indoors
-
-- name: Colors Indoors
-  year: 2025
+- name: Swiss Championships Open
+  year: 2026
+  team: Løsanson
   club: FlyHigh Lausanne
+
+- name: Swiss Beach Championships Mixed
+  year: 2026
+  team: ZebraH
+  club: Zürich Ultimate
+
+- name: Swiss Championships Mixed
+  year: 2026
+  team: Comets 
+  clib: FlyHigh Lausanne
+
+# Indoors
 
 - name: Colors Indoors
   year: 2024
   team: Headless
   club: Zürich Ultimate
+
+- name: Colors Indoors
+  year: 2025
+  club: FlyHigh Lausanne
 
 - name: AVO-K
   year: 2025
@@ -77,6 +92,10 @@
   team: The Greatest Show
   result: Gold
 
+- name: Colors Indoors
+  year: 2026
+  club: FlyHigh Lausanne
+
 # Beach Fun
 
 - name: Paganello
@@ -91,6 +110,15 @@
   year: 2025
   club: FlyHigh Lausanne
 
+- name: Paganello
+  year: 2026
+  club: FlyHigh Lausanne
+
+- name: Caorle Beach
+  year: 2026
+  team: ZebraH
+  club: Zürich Ultimate
+
 # European Season
 
 - name: Spring Tour Grenoble
@@ -103,37 +131,59 @@
   team: Løsanson
   club: FlyHigh Lausanne
 
-# World Championships
+- name: Spring Tour Padova
+  year: 2026
+  team: Jurassic Pack
+
+- name: Windmill
+  year: 2026
+  team: Jurassic Pack
+
+- name: Summer Tour Rimini
+  year: 2026
+  team: Jurassic Pack
+
+# World/Euro Championships
 
 - name: World Beach Ultimate Club Championships
   year: 2024
   team: platZHirsch
   club: Zürich Ultimate
 
-# Fun Grass
-
-- name: Missuldisc
-  year: 2024
-  team: Bamboozels
-
-- name: Missuldisc
+- name: European Beach Ultimate Club Championships
   year: 2025
-  team: Bamboozels
+  team: platZHirsch
+  club: Zürich Ultimate
+
+- name: European Ultimate Indoor Championships
+  year: 2026
+  team: Elite Mixed
+  club: Swiss National Team
+
+# Fun Grass
 
 - name: Südsee Cup
   year: 2023
   team: ZebraH
   club: Zürich Ultimate
 
+- name: Missuldisc
+  year: 2024
+  team: Bamboozels
+
 - name: Südsee Cup
   year: 2024
   team: ZebraH / FucZH
   club: Zürich Ultimate
 
+- name: Missuldisc
+  year: 2025
+  team: Bamboozels
+
 - name: Smells Like Disc Spirit
   year: 2025
   team: FlyLow
-  result: Silver + Spirit
+  result: Silver, Spirit
 
 # Preparation
 
@@ -145,13 +195,17 @@
 - name: Skybowl
   year: 2025
   team: Løsanson
-  club: FlyHigh
+  club: FlyHigh Lausanne
 
 - name: Snow Melt
   year: 2025
   team: Løsanson
-  club: FlyHigh
+  club: FlyHigh Lausanne
 
+- name: SkyBall
+  year: 2026
+  team: Løsanson
+  club: FlyHigh Lausanne
 # Hat
 
 - name: Zürich Hat
@@ -160,6 +214,9 @@
 - name: Force Lake
   year: 2025
   result: Bronze
+
+- name: Force Lake
+  year: 2026
 
 # Leagues
 
@@ -195,21 +252,21 @@
   team: Open Firsts
   club: Cambridge Univeristy Ultimate Club
 
-- name: Cambridge University College League
-  year: 2020
-  team: Trinity College Ultimate
-
-- name: Cambridge University College League
-  year: 2021
-  team: Trinity College Ultimate
-
-- name: Cambridge University College League
-  year: 2022
-  team: Trinity College Ultimate
-
-- name: Cambridge University College League
-  year: 2023
-  team: Trinity College Ultimate
+# - name: Cambridge University College League
+#   year: 2020
+#   team: Trinity College Ultimate
+#
+# - name: Cambridge University College League
+#   year: 2021
+#   team: Trinity College Ultimate
+#
+# - name: Cambridge University College League
+#   year: 2022
+#   team: Trinity College Ultimate
+#
+# - name: Cambridge University College League
+#   year: 2023
+#   team: Trinity College Ultimate
 
 # UK Championships
 
@@ -233,21 +290,21 @@
 
 # Cuppers
 
-- name: Cambridge University Indoor Cuppers
-  year: 2021
-  team: Trinity College Ultimate
-
-- name: Cambridge University Indoor Cuppers
-  year: 2022
-  team: Trinity College Ultimate
-
-- name: Cambridge University Outdoor Cuppers
-  year: 2022
-  team: Trinity College Ultimate
-
-- name: Cambridge University Outdoor Cuppers
-  year: 2023
-  team: Trinity College Ultimate
+# - name: Cambridge University Indoor Cuppers
+#   year: 2021
+#   team: Trinity College Ultimate
+#
+# - name: Cambridge University Indoor Cuppers
+#   year: 2022
+#   team: Trinity College Ultimate
+#
+# - name: Cambridge University Outdoor Cuppers
+#   year: 2022
+#   team: Trinity College Ultimate
+#
+# - name: Cambridge University Outdoor Cuppers
+#   year: 2023
+#   team: Trinity College Ultimate
 
 # Varisties
 
@@ -273,6 +330,6 @@
 
 - name: Varsity 
   year: 2021
-  team: TODO
+  team: Open Seconds
   club: Cambridge Univeristy Ultimate Club
 

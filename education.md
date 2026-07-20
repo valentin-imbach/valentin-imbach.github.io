@@ -6,9 +6,11 @@ number: 1.1
 
 I grew up in Zürich, Switzerland, and discovered my affinity for mathematics while participating
 in many national and international [mathematics competitions](olympiad.html) during my high school
-years at MNG Rämibühl. In 2018, I attended the [PROMYS Europe](https://promys-europe.org/) Summer School
-in Oxford where I got my first taste of academia. For my high school graduation project in 2019,
-I wrote an exposition entitled [On the Probabilistic Method and Permutations](matura.pdf).
+years at MNG Rämibühl. I also participated in various extracurricular mathematics programs,
+including the [UZH Junior Euler Society](https://jes.math.uzh.ch/home),
+the [ETH Youth Academy](https://educ.ethz.ch/lernzentren/mint-lernzentrum/ETH_Youth_Academy.html),
+and the [PROMYS Europe](https://promys-europe.org/) summer school in Oxford,
+which was one of the main reasons I went on to study in the UK.
 
 ### Undergrad
 
@@ -26,8 +28,8 @@ formal language results to words of transfinite length under
     <figcaption>Figure 1: Graduating in Hat</figcaption>
 </figure>
 
-In spring 2026 I will be conferred an honorary Master's of Arts (**MA**) degree,
-as is custom after undergrad studies at the University of Cambridge.
+In spring 2026, I was conferred an honorary Master's of Arts (**MA**) degree,
+as is custom after undergraduate studies at the University of Cambridge.
 
-I held the positions of **Membership Secretary** (2020), **President** (2021), and **Constable** (2022)
-at the [Trinity Mathematical Society](https://tms.soc.srcf.net/), the oldest subject society in England.
+<!-- I held the positions of **Membership Secretary** (2020), **President** (2021), and **Constable** (2022) -->
+<!-- at the [Trinity Mathematical Society](https://tms.soc.srcf.net/), the oldest subject society in England. -->
