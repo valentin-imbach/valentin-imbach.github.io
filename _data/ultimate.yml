@@ -60,8 +60,8 @@
 
 - name: Swiss Championships Mixed
   year: 2026
-  team: Comets 
-  clib: FlyHigh Lausanne
+  team: Comets
+  club: FlyHigh Lausanne
 
 # Indoors
 
@@ -159,6 +159,11 @@
   year: 2026
   team: Elite Mixed
   club: Swiss National Team
+
+- name: European Beach Ultimate Club Championships
+  year: 2026
+  team: platZHirsch
+  club: Zürich Ultimate
 
 # Fun Grass
 

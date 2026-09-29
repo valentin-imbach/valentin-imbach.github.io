@@ -29,7 +29,7 @@ I have also authored some problems for international competitions, including MEM
 
 ### Roles at International Olympiads
 I've been involved at many international mathematics competitions and plan to attend many more.
-- **Coordinator** at MEMO 2026 in Slovenia
+- **Problem Selection Committee and Coordinator** at MEMO 2026 in Slovenia
 - **Coordinator\*** at the Olympiade Francophone de Mathématiques 2026
 - **Team Leader Liechtenstein** at the IMO 2025 in Australia
 - **Coordinator\*** at the Pan African Mathematics Olympiad 2024
@@ -38,7 +38,7 @@ I've been involved at many international mathematics competitions and plan to at
 - **Team Leader Liechtenstein** at the IMO 2023 in Japan
 - **Coordinator** at the European Girls' Mathematical Olympiad 2023 in Slovenia
 - **Coordinator** at MEMO 2022 in Switzerland
-- **Problem Selection Committee** at MEMO 2022 in Switzerland
+- **Problem Selection Committee and Coordinator** at MEMO 2022 in Switzerland
 - **Team Leader Liechtenstein** at IMO 2022 in Norway
 - **Team Leader Liechtenstein\*** at IMO 2021
 - **Coordinator\*** at the Olympiade Francophone de Mathématiques 2021

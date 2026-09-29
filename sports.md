@@ -15,6 +15,9 @@ for a number of different clubs and teams.
     <figcaption>Figure 1: Throwing in Hat</figcaption>
 </figure>
 
+- Since 2026: Coach at *Servies des Sports UNIL/EPFL*
+- Since 2025: Regional Team *Jurassic Pack*
+    - EUCS Tours and Windmill 2026 (Captaincy)
 - Since 2024: Swiss National Team
     - Elite Open Grass
     - Elite Mixed Indoors (Captaincy at EUIC 2026)
@@ -22,8 +25,6 @@ for a number of different clubs and teams.
     - Open Team *Løsanson* (Captaincy 2026)
         - EUCS 2025
     - Mixed Team
-    - Regional Team *Jurassic Pack* (Captaincy 2026)
-        - EUCS 2026
 - Since 2022: Zürich Ultimate
 	- Board Member for Spirit
     - Open Team *platZHirsch*
@@ -45,13 +46,18 @@ for a number of different clubs and teams.
 	- Gold at Indoor Cuppers 2021
 
 I am a certified ultimate coach by the Swiss ultimate association and
-I have coached many mixed and open teams across all levels and age categories.
+have coached several mixed and open teams across all levels.
 To further popularise the sport, I have led numerous workshops at schools,
 as well as outreach events for organisations including
 - GORILLA Schweiz
 - fit4future
 - Panathlon Family Games Lausanne
 - Stiftung für Junge Auslandschweizer
+
+On occasion, I have appeared as a guest commentator on [ulty.tv](https://www.ulti.tv/) alongside Stefan Rappazzo:
+- Swiss Mixed Nationals 2026 – 9th place game: [AIR vs FAB X](https://www.youtube.com/watch?v=ywPi9GbJaoY)
+- Swiss Mixed Nationals 2025 – Semi Final: [Scorillaz vs FSL](https://www.youtube.com/watch?v=3WI_MKn3nQs)
+- Swiss Mixed Nationals 2025 – 5th place game: [FlyHigh vs FABrique](https://www.youtube.com/watch?v=ep_FPJBwV5c)
 
 ### Other Sports
 
