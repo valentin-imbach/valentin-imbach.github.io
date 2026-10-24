@@ -23,20 +23,18 @@ I have pledged to no use large language models in any core research capacity.
 ### Publications
 
 1. **Sign-Rank of k-Hamming Distance is Constant** (FOCS 2025)\
-with Mika Göös, Nathan Harms, and Dmitry Sokolov.\
+with Mika Göös, Nathan Harms, and Dmitry Sokolov\
 [arχiv](https://arxiv.org/abs/2506.12022),
 [ECCC](https://eccc.weizmann.ac.il/report/2025/060),
-[slides](/downloads/focs-2025.pdf)\
------------------------------------------------------\
+[slides](/files/focs-2025.pdf)\
+\
 **In a nutshell:** *Two ants on a cube can determine if they are very close to each other
 using way less communication than was previously believed.*
 
 2. **Algebraic Complexity Approach to Sign-Rank** (pre-print)\
-with Mika Göös, Kaave Hosseini, and Anastasia Sofronova.\
-<!-- [arχiv](https://arxiv.org/abs/2506.12022), -->
-[ECCC](https://eccc.weizmann.ac.il/report/2026/193/),
-<!-- [slides](/downloads/focs-2025.pdf)\ -->
------------------------------------------------------\
+with Mika Göös, Kaave Hosseini, and Anastasia Sofronova\
+[ECCC](https://eccc.weizmann.ac.il/report/2026/193/)\
+\
 **In a nutshell:** *In a particular algebraic setting, deciding whether two patterns
 combine to form a rectangle requires a lot of communication.*
 
@@ -49,23 +47,25 @@ More information can be found on my [Google Scholar](https://scholar.google.com/
 
 ### Talks
 
-1. **Communication and Topology** (2026)
-"5 minute talk" from *Complexity as a Kaleidoscope 2026*\
-[YouTube](https://youtu.be/qV4VLNXoH0I?t=784)
+1. **Communication and Topology** (2026)\
+A "5 minute talk" from *Complexity as a Kaleidoscope 2026*\
+[YouTube](https://youtu.be/qV4VLNXoH0I?t=784)\
+\
+**In a nutshell:** Communication is hard because spheres can't be squished into planes.
 
 ### Once Upon a Time
 
 1. **Transfinite Context-Free Generative Grammars** (2022)\
 Cambridge Mathematical Tripos Part III Essay\
-[pdf](/downloads/essay.pdf)\
------------------------------------------------------\
+[pdf](/files/essay.pdf)\
+\
 **In a nutshell:** *A certain classical characterisation of languages
-can be generalised to languages with words of infinite length*
+can be generalised to languages with words of infinite length*.
 
 2. **On the Probabilistic Method and Permutations** (2019)\
 High School Graduation Project\
-[pdf](/downloads/matura.pdf), [poster](/downloads/matura-poster.pdf)\
------------------------------------------------------\
+[pdf](/files/matura.pdf), [poster](/files/matura-poster.pdf)\
+\
 **In a nutshell:** *It is surprisingly useful to use randomness in the proofs of
 statements that are entirely deterministic.*
 

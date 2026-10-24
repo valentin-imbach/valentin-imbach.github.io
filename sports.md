@@ -15,7 +15,7 @@ for a number of different clubs and teams.
     <figcaption>Figure 1: Throwing in Hat</figcaption>
 </figure>
 
-- Since 2026: Coach at *Servies des Sports UNIL/EPFL*
+- Since 2026: Coach at *Services des Sports UNIL/EPFL*
 - Since 2025: Regional Team *Jurassic Pack*
     - EUCS Tours and Windmill 2026 (Captaincy)
 - Since 2024: Swiss National Team

@@ -3,7 +3,7 @@ layout: page
 title: Courses
 ---
 
-This is a coprehensive list of lectures I attended as part of my studies in the Matheamtical Tripos at Cambridge University.
+This is a comprehensive list of lectures I attended as part of my studies in the Mathematical Tripos at Cambridge University.
 
 <style>
 #lecture-div {
